@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Ember</title>
         <link>https://eunggg0.github.io/ember-releases/appcast.xml</link>
         <description>Ember updates (no releases yet)</description>
         <language>ko</language>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 24 Oct 2026 20:16:42 +0900</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0/Ember-1.0.aar" length="1406935112" type="application/octet-stream" sparkle:edSignature="suE5DKjRzMiZ/Pl5Pljg71WFq4T02AxJU34IKTW8pqDsWPHGLdUpUJ18oLU//rC6JEdD9OQDMIxVoDBfaREfDQ=="></enclosure>
+        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: XXlykVVyVXC9Pbp9ebumvv0i+gzMNBv8nBwsbl2kTaAiicabtr359oNYKUYjQM2/YofGtJU4qxNjWcH0r3ghDA==
-length: 660
+edSignature: hH3UkDlOnYOIPHvjz0dFviyI/aeiqxQR0mqAgq39Ip5pb35utJJ6eHva1nr8KOUNJwJVn8HR79NZiR/OPtB2Bg==
+length: 1306
 -->
