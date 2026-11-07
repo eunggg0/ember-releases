@@ -7,6 +7,143 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Ember updates (no releases yet)</description>
         <language>ko</language>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 07 Nov 2026 13:19:12 +0900</pubDate>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1/Ember-1.0.1.tar.xz" length="1445185172" type="application/octet-stream" sparkle:edSignature="jtwI3OpaP8X/DOdQsIM46vTQOLq1hwL4cTvYrurPzTDztpTl/JmsbrqkYmgY+XFFBdhn8Dd7Gg4WqXRiuVuCDg=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1/Ember101-100.delta" sparkle:deltaFrom="100" length="107074994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eP3FlRXoJg9I9MIyJuAQThMH1Yq24QBCi15/YPnrjwgeJVYC4AoJaxsNk7Et0PdgiYfDIY+QHImcQluTuOvAAg=="></enclosure>
+            </sparkle:deltas>
+        <description xml:lang="ko">&lt;section lang="ko"&gt;
+&lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
+&lt;h3&gt;새 기능&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;가상 머신&lt;/strong&gt;: Ember 안에서 Windows 11 ARM 가상 머신을 만들고 쓸 수 있습니다. Windows 설치와 드라이버 설정은 Ember가 자동으로 진행합니다. 설치 파일(ISO)은 Microsoft에서 받아야 하며, Windows 라이선스는 따로 구매해야 합니다. 가상 머신은 macOS 15 이상에서 쓸 수 있습니다.&lt;/li&gt;
+&lt;li&gt;가상 머신에서 D3D12 게임을 실행할 수 있습니다. 검은 신화: 오공 벤치마크가 가상 머신에서 끝까지 실행됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ember Shield&lt;/strong&gt;: 게임을 실행하기 전에 알려진 감염 흔적이 있는지 확인하고, 발견하면 바로 알려 드립니다. 알려진 악성 주소로의 연결도 막습니다. Rosetta와 FEX 엔진 모두에서 작동하며, 막은 횟수는 설정에서 볼 수 있습니다. 구매 여부와 관계없이 누구나 쓸 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;고친 점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;위쳐 3: 와일드 헌트가 시작할 때 튕기던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;스텔라 블레이드에서 화면에 흰 점이 보이던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;Dome Keeper가 시작하자마자 꺼지던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;검은 신화: 오공 벤치마크가 도중에 멈추거나 지형이 검게 보이던 문제를 고쳤습니다. 벤치마크가 끝까지 실행됩니다.&lt;/li&gt;
+&lt;li&gt;Ember 1.0에서 앱 안 업데이트로 새 버전을 받을 수 있게 고쳤습니다. 업데이트를 받을 때 바뀐 점을 함께 보여 줍니다.&lt;/li&gt;
+&lt;li&gt;앱과 업데이트의 보안을 강화했습니다.&lt;/li&gt;
+&lt;li&gt;영어·일본어·중국어(간체·번체) 화면에 한국어로 남아 있던 문구를 번역했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;알아 두세요&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ember를 열 때 macOS가 '앱 업데이트가 필요함' 알림을 보여 줄 수 있습니다. 앞으로 나올 macOS에 대한 안내이며, 지금 쓰는 macOS에서는 Ember를 그대로 쓸 수 있습니다. 새 macOS에 맞춰 계속 대응하겠습니다.&lt;/li&gt;
+&lt;li&gt;D3DMetal은 지금처럼 Ember에 포함되지 않습니다. Apple에서 직접 받아 설치한 것을 찾아 사용합니다.&lt;/li&gt;
+&lt;li&gt;모든 Windows 게임의 실행을 보장하지 않습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="en">&lt;section lang="en"&gt;
+&lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
+&lt;h3&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Virtual machine&lt;/strong&gt;: Create and use a Windows 11 ARM virtual machine inside Ember. Ember installs Windows and sets up the drivers for you. You download the installation file (ISO) from Microsoft, and a Windows license is purchased separately. The virtual machine requires macOS 15 or later.&lt;/li&gt;
+&lt;li&gt;Run D3D12 games in the virtual machine. The Black Myth: Wukong benchmark runs to completion in the virtual machine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ember Shield&lt;/strong&gt;: Before a game starts, Ember checks for known signs of infection and tells you right away if it finds any. It also blocks connections to known malicious addresses. Shield works with both the Rosetta and FEX engines, and you can see how many connections were blocked in Settings. It is available to everyone, whether or not you have purchased Ember.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a crash when The Witcher 3: Wild Hunt starts.&lt;/li&gt;
+&lt;li&gt;Fixed white dots appearing on screen in Stellar Blade.&lt;/li&gt;
+&lt;li&gt;Fixed Dome Keeper closing right after it starts.&lt;/li&gt;
+&lt;li&gt;Fixed the Black Myth: Wukong benchmark stopping partway and showing black terrain. The benchmark now runs to the end.&lt;/li&gt;
+&lt;li&gt;Ember 1.0 can now receive new versions through the in-app updater. Updates show what changed.&lt;/li&gt;
+&lt;li&gt;Strengthened the security of the app and its updates.&lt;/li&gt;
+&lt;li&gt;Translated text that still appeared in Korean on the English, Japanese, and Chinese (Simplified and Traditional) screens.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Good to know&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;When you open Ember, macOS may show an "app update required" notice. The notice is about future versions of macOS; Ember keeps working on the macOS you use now, and we will keep updating it for new macOS releases.&lt;/li&gt;
+&lt;li&gt;D3DMetal is still not included with Ember. Ember finds and uses the copy you download and install from Apple.&lt;/li&gt;
+&lt;li&gt;Not every Windows game is guaranteed to run.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="ja">&lt;section lang="ja"&gt;
+&lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
+&lt;h3&gt;新機能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;仮想マシン&lt;/strong&gt;：Ember の中で Windows 11 ARM の仮想マシンを作成して使えます。Windows のインストールとドライバーの設定は Ember が自動で進めます。インストール用ファイル（ISO）は Microsoft から入手してください。Windows のライセンスは別途ご購入ください。 仮想マシンは macOS 15 以降で使えます。&lt;/li&gt;
+&lt;li&gt;仮想マシンで D3D12 ゲームを実行できます。『黒神話：悟空』のベンチマークが仮想マシンで最後まで動作します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ember Shield&lt;/strong&gt;：ゲームを起動する前に既知の感染の痕跡がないか確認し、見つかった場合はすぐにお知らせします。既知の悪意あるアドレスへの接続もブロックします。Rosetta と FEX の両方のエンジンで動作し、ブロックした回数は設定で確認できます。購入の有無にかかわらず、どなたでもお使いいただけます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;修正&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;『ウィッチャー3 ワイルドハント』の起動時にクラッシュする問題を修正しました。&lt;/li&gt;
+&lt;li&gt;『Stellar Blade』で画面に白い点が表示される問題を修正しました。&lt;/li&gt;
+&lt;li&gt;『Dome Keeper』が起動直後に終了する問題を修正しました。&lt;/li&gt;
+&lt;li&gt;『黒神話：悟空』ベンチマークが途中で止まったり地形が黒く表示されたりする問題を修正しました。ベンチマークが最後まで動作します。&lt;/li&gt;
+&lt;li&gt;Ember 1.0 からアプリ内アップデートで新しいバージョンを受け取れるようにしました。アップデート時に変更点も表示します。&lt;/li&gt;
+&lt;li&gt;アプリとアップデートのセキュリティを強化しました。&lt;/li&gt;
+&lt;li&gt;英語・日本語・中国語（簡体字・繁体字）の画面に韓国語のまま残っていた文言を翻訳しました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ご注意&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ember を開くと、macOS が「App のアップデートが必要です」という通知を表示することがあります。今後の macOS に向けた案内で、今お使いの macOS では Ember をそのまま使えます。新しい macOS にも引き続き対応します。&lt;/li&gt;
+&lt;li&gt;D3DMetal はこれまでどおり Ember に含まれていません。Apple から入手してインストールしたものを見つけて使用します。&lt;/li&gt;
+&lt;li&gt;すべての Windows ゲームの動作を保証するものではありません。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="zh-Hans">&lt;section lang="zh-Hans"&gt;
+&lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
+&lt;h3&gt;新功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;虚拟机&lt;/strong&gt;：可在 Ember 中创建并使用 Windows 11 ARM 虚拟机。Ember 会自动完成 Windows 安装和驱动程序设置。安装文件（ISO）需要从 Microsoft 下载，Windows 许可证需另行购买。虚拟机需要 macOS 15 或更高版本。&lt;/li&gt;
+&lt;li&gt;可以在虚拟机中运行 D3D12 游戏。《黑神话：悟空》基准测试可在虚拟机中完整运行。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ember Shield&lt;/strong&gt;：在游戏启动前检查是否存在已知的感染痕迹，一旦发现会立即提醒您。它还会阻止连接到已知的恶意地址。Shield 同时支持 Rosetta 和 FEX 引擎，拦截次数可在设置中查看。无论是否购买 Ember，所有人都可以使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;修复&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修复了《巫师 3：狂猎》启动时崩溃的问题。&lt;/li&gt;
+&lt;li&gt;修复了《剑星》（Stellar Blade）画面上出现白点的问题。&lt;/li&gt;
+&lt;li&gt;修复了《Dome Keeper》启动后立即退出的问题。&lt;/li&gt;
+&lt;li&gt;修复了《黑神话：悟空》基准测试中途停止以及地形显示为黑色的问题。基准测试现在可以完整运行。&lt;/li&gt;
+&lt;li&gt;Ember 1.0 现在可以通过应用内更新获取新版本。更新时会一并显示更改内容。&lt;/li&gt;
+&lt;li&gt;加强了应用及其更新的安全性。&lt;/li&gt;
+&lt;li&gt;翻译了英语、日语、中文（简体、繁体）界面中仍以韩语显示的文字。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;请注意&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;打开 Ember 时，macOS 可能会显示“需要更新 App”的提示。该提示针对今后的 macOS 版本，在你现在使用的 macOS 上仍可继续使用 Ember，我们也会持续适配新的 macOS 版本。&lt;/li&gt;
+&lt;li&gt;D3DMetal 仍然不包含在 Ember 中。Ember 会查找并使用您从 Apple 下载并安装的版本。&lt;/li&gt;
+&lt;li&gt;不保证所有 Windows 游戏都能运行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="zh-Hant">&lt;section lang="zh-Hant"&gt;
+&lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
+&lt;h3&gt;新功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;虛擬機&lt;/strong&gt;：可在 Ember 中建立並使用 Windows 11 ARM 虛擬機。Ember 會自動完成 Windows 安裝和驅動程式設定。安裝檔案（ISO）需要從 Microsoft 下載，Windows 授權需另行購買。虛擬機需要 macOS 15 或更新版本。&lt;/li&gt;
+&lt;li&gt;可以在虛擬機中執行 D3D12 遊戲。《黑神話：悟空》基準測試可在虛擬機中完整執行。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ember Shield&lt;/strong&gt;：在遊戲啟動前檢查是否有已知的感染痕跡，一旦發現會立即通知您。它也會阻擋連線到已知的惡意位址。Shield 同時支援 Rosetta 與 FEX 引擎，阻擋次數可在設定中查看。無論是否購買 Ember，所有人都可以使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;修正&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修正了《巫師 3：狂獵》啟動時當機的問題。&lt;/li&gt;
+&lt;li&gt;修正了《劍星》（Stellar Blade）畫面上出現白點的問題。&lt;/li&gt;
+&lt;li&gt;修正了《Dome Keeper》啟動後立即關閉的問題。&lt;/li&gt;
+&lt;li&gt;修正了《黑神話：悟空》基準測試中途停止以及地形顯示為黑色的問題。基準測試現在可以完整執行。&lt;/li&gt;
+&lt;li&gt;Ember 1.0 現在可以透過 App 內更新取得新版本。更新時會一併顯示變更內容。&lt;/li&gt;
+&lt;li&gt;加強了 App 及其更新的安全性。&lt;/li&gt;
+&lt;li&gt;翻譯了英文、日文、中文（簡體、繁體）畫面中仍以韓文顯示的文字。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;請注意&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;開啟 Ember 時，macOS 可能會顯示「需要更新 App」的通知。此通知針對日後的 macOS 版本，在你目前使用的 macOS 上仍可繼續使用 Ember，我們也會持續支援新的 macOS 版本。&lt;/li&gt;
+&lt;li&gt;D3DMetal 仍然不包含在 Ember 中。Ember 會尋找並使用您從 Apple 下載並安裝的版本。&lt;/li&gt;
+&lt;li&gt;不保證所有 Windows 遊戲都能執行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description></item>
+        <item>
             <title>1.0</title>
             <pubDate>Sat, 24 Oct 2026 20:16:42 +0900</pubDate>
             <sparkle:version>100</sparkle:version>
@@ -17,6 +154,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: hH3UkDlOnYOIPHvjz0dFviyI/aeiqxQR0mqAgq39Ip5pb35utJJ6eHva1nr8KOUNJwJVn8HR79NZiR/OPtB2Bg==
-length: 1306
+edSignature: lOtJi0+EO+Xtuf77E7OlZ/u6F+mCTfRZv+VSRv09ysP6q8mlkSBb+hR3hnsmtC1Rj1WJKF9EaXxOS98ZGQViDQ==
+length: 14790
 -->
