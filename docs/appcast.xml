@@ -7,6 +7,69 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Ember updates (no releases yet)</description>
         <language>ko</language>
         <item>
+            <title>1.0.1.1</title>
+            <pubDate>Wed, 11 Nov 2026 13:22:16 +0900</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>1.0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.1/Ember-1.0.1.1.tar.xz" length="1445247360" type="application/octet-stream" sparkle:edSignature="bjcAjfOr3ucanmiKoYdUjNHaFqqHN6lhqU24IHEs5qwAyP3r+4T0VHxbshMR4g3t6v+i9WgZ7b7TpJ7acRuIBQ=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.1/Ember102-101.delta" sparkle:deltaFrom="101" length="3327978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O7A3S4QK5UhZYdoeSrrA/jk6HrpDyIvIu6pco9FvMqE/TsnBHRW2kl2gwZCwoB/o6v0+So5aNtAfGorTu5IUDA=="></enclosure>
+                <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.1/Ember102-100.delta" sparkle:deltaFrom="100" length="107111274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4bfEErx3PeKksDC8c0+bTxYmxY/Hw6qllkXBuFwYVj48gw6/SKTukvWOtrpRGKLaOBm49bG/hzBEMVRYTus/CQ=="></enclosure>
+            </sparkle:deltas>
+        <description xml:lang="ko">&lt;section lang="ko"&gt;
+&lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
+&lt;h3&gt;고친 점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;스팀·에픽·넥슨·니케 설치 파일을 받아 설치할 때 서명 확인 오류로 멈추던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;새 실행 환경을 만들 때 초기화 오류로 멈추던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;게임을 실행할 때 앱이 꺼질 수 있던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;Ember Shield가 정상적인 실행을 막던 경우를 줄였습니다. 알려진 위험이 확인될 때만 막고, 그 밖에는 알림만 표시합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="en">&lt;section lang="en"&gt;
+&lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue where downloading and installing Steam, Epic Games, Nexon, or NIKKE stopped with a signature check error.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where creating a new environment stopped with an initialization error.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where the app could quit when launching a game.&lt;/li&gt;
+&lt;li&gt;Ember Shield now blocks normal launches less often. It blocks only when a known threat is confirmed and otherwise just shows a notice.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="ja">&lt;section lang="ja"&gt;
+&lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
+&lt;h3&gt;修正&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Steam・Epic Games・Nexon・NIKKE のインストーラーをダウンロードしてインストールするとき、署名確認エラーで止まる問題を修正しました。&lt;/li&gt;
+&lt;li&gt;新しい実行環境を作るとき、初期化エラーで止まる問題を修正しました。&lt;/li&gt;
+&lt;li&gt;ゲームを起動するときにアプリが終了することがある問題を修正しました。&lt;/li&gt;
+&lt;li&gt;Ember Shield が正常な起動を止めてしまう場合を減らしました。既知の危険が確認されたときだけ止め、それ以外はお知らせだけを表示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="zh-Hans">&lt;section lang="zh-Hans"&gt;
+&lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
+&lt;h3&gt;修复&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修复了下载并安装 Steam、Epic Games、Nexon、NIKKE 安装程序时因签名验证错误而中止的问题。&lt;/li&gt;
+&lt;li&gt;修复了创建新运行环境时因初始化错误而中止的问题。&lt;/li&gt;
+&lt;li&gt;修复了启动游戏时应用可能退出的问题。&lt;/li&gt;
+&lt;li&gt;减少了 Ember Shield 拦截正常启动的情况。仅在确认存在已知风险时拦截，其他情况只显示提示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="zh-Hant">&lt;section lang="zh-Hant"&gt;
+&lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
+&lt;h3&gt;修正&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修正了下載並安裝 Steam、Epic Games、Nexon、NIKKE 安裝程式時因簽章驗證錯誤而中止的問題。&lt;/li&gt;
+&lt;li&gt;修正了建立新執行環境時因初始化錯誤而中止的問題。&lt;/li&gt;
+&lt;li&gt;修正了啟動遊戲時 App 可能關閉的問題。&lt;/li&gt;
+&lt;li&gt;減少了 Ember Shield 攔截正常啟動的情況。僅在確認有已知風險時攔截，其他情況只顯示通知。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description></item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Sat, 07 Nov 2026 13:19:12 +0900</pubDate>
             <sparkle:version>101</sparkle:version>
@@ -17,7 +80,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:deltas>
                 <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1/Ember101-100.delta" sparkle:deltaFrom="100" length="107074994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eP3FlRXoJg9I9MIyJuAQThMH1Yq24QBCi15/YPnrjwgeJVYC4AoJaxsNk7Et0PdgiYfDIY+QHImcQluTuOvAAg=="></enclosure>
             </sparkle:deltas>
-        <description xml:lang="ko">&lt;section lang="ko"&gt;
+            <description xml:lang="ko">&lt;section lang="ko"&gt;
 &lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
 &lt;h3&gt;새 기능&lt;/h3&gt;
 &lt;ul&gt;
@@ -42,7 +105,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;모든 Windows 게임의 실행을 보장하지 않습니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="en">&lt;section lang="en"&gt;
+</description>
+            <description xml:lang="en">&lt;section lang="en"&gt;
 &lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
 &lt;h3&gt;New&lt;/h3&gt;
 &lt;ul&gt;
@@ -67,7 +131,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;Not every Windows game is guaranteed to run.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="ja">&lt;section lang="ja"&gt;
+</description>
+            <description xml:lang="ja">&lt;section lang="ja"&gt;
 &lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
 &lt;h3&gt;新機能&lt;/h3&gt;
 &lt;ul&gt;
@@ -92,7 +157,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;すべての Windows ゲームの動作を保証するものではありません。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="zh-Hans">&lt;section lang="zh-Hans"&gt;
+</description>
+            <description xml:lang="zh-Hans">&lt;section lang="zh-Hans"&gt;
 &lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
 &lt;h3&gt;新功能&lt;/h3&gt;
 &lt;ul&gt;
@@ -117,7 +183,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;不保证所有 Windows 游戏都能运行。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="zh-Hant">&lt;section lang="zh-Hant"&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;section lang="zh-Hant"&gt;
 &lt;h2&gt;Ember 1.0.1&lt;/h2&gt;
 &lt;h3&gt;新功能&lt;/h3&gt;
 &lt;ul&gt;
@@ -142,7 +209,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;不保證所有 Windows 遊戲都能執行。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.0</title>
             <pubDate>Sat, 24 Oct 2026 20:16:42 +0900</pubDate>
@@ -154,6 +222,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: lOtJi0+EO+Xtuf77E7OlZ/u6F+mCTfRZv+VSRv09ysP6q8mlkSBb+hR3hnsmtC1Rj1WJKF9EaXxOS98ZGQViDQ==
-length: 14790
+edSignature: Idp9CeoVaE9lSKbhhx8y4Uu+5KS1+QgyPvIhgPqZg+6OqBhV5cSlKDnnVsVx/zY9jjqQNrVmXAB/8FXFEeE3Cg==
+length: 19936
 -->
