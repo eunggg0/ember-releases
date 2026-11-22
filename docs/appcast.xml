@@ -7,6 +7,130 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Ember updates (no releases yet)</description>
         <language>ko</language>
         <item>
+            <title>1.0.1.2</title>
+            <pubDate>Sun, 22 Nov 2026 19:00:29 +0900</pubDate>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>1.0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.2/Ember-1.0.1.2.tar.xz" length="1445827744" type="application/octet-stream" sparkle:edSignature="wh/FYYrEorKUDfnmM79fJfZvnkgMXybW/+24ebwku4LBXwXUIed72MYnYKVTJsztYYB/4c40QxybUNhTnTeVBA=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.2/Ember103-102.delta" sparkle:deltaFrom="102" length="5667134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HBhlHX9O48jRqZvubqY2LClU3LUXXOyTqObUWcAx8KmnPlz3W9P6rOIv5ehoqPjgw/ao65yZsmYfAWd3HQEdDQ=="></enclosure>
+                <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.2/Ember103-101.delta" sparkle:deltaFrom="101" length="5771902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="I3YMEoTi9YGr0Q3X2gM04YUrJdHu+aZ34X4eLFEQJ7LAaqzR683OEzmPq3DGV33aNh8SGyoV5oNK4KsN+j2NCA=="></enclosure>
+                <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.2/Ember103-100.delta" sparkle:deltaFrom="100" length="108087978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="id+jL23jD6qqbtR3SKxNNiF1kUiI/PLj9esfbcDUf0cQoGqMt5+X/pHwLdMactygRlqI+onVuPGc5XnYnYyyAA=="></enclosure>
+            </sparkle:deltas>
+        <description xml:lang="ko">&lt;section lang="ko"&gt;
+&lt;h2&gt;Ember 1.0.1.2&lt;/h2&gt;
+&lt;h3&gt;새로운 점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ember를 켜고 끌 때와 게임을 실행할 때 걸리는 시간이 크게 줄었습니다. 사용 중에 잠깐씩 멈추던 현상도 줄었습니다.&lt;/li&gt;
+&lt;li&gt;실행 환경을 만들지 못하거나 게임을 실행하지 못할 때, 원인과 해결 방법을 화면에 안내합니다. 문의할 때 쓸 진단 정보도 저장할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;게임에 필요한 구성 요소(Visual C++, DirectX, .NET)가 없으면 게임 페이지에서 확인을 받은 뒤 자동으로 설치합니다.&lt;/li&gt;
+&lt;li&gt;메모리 8GB Mac에서는 메모리를 아끼는 설정을 추천합니다. 설정 → 일반에서 직접 켜고 끌 수 있습니다.&lt;/li&gt;
+&lt;li&gt;게임 설치 파일이 설치를 모두 마칠 때까지 기다린 뒤 게임을 등록합니다. 실행 파일이 여러 개면 직접 고를 수 있습니다.&lt;/li&gt;
+&lt;li&gt;.NET 10·WebView2를 쓰는 게임 런처에 필요한 구성 요소를 자동으로 설치하고, 실행 안정성을 높였습니다.&lt;/li&gt;
+&lt;li&gt;웹 화면을 쓰는 일부 게임 런처의 화면이 비어 보이던 것을 개선했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;고친 점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;게임 안에서 한글을 입력할 때 첫 글자가 자모로 쪼개지던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;넥슨 플러그로 실행하면 Dock에 아이콘이 두 개 보이던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;게임을 직접 종료했는데 오류나 튕김으로 기록되던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;한국어 화면의 일부 문구가 영어로 보이던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;일부 설치 파일이 설치를 마친 뒤에도 오래 기다리던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;li&gt;게임 추가 창에서 실행 파일을 고를 때 아래 단추가 잘리던 문제를 고쳤습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="en">&lt;section lang="en"&gt;
+&lt;h2&gt;Ember 1.0.1.2&lt;/h2&gt;
+&lt;h3&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ember now opens, quits, and starts games much faster. Brief freezes while using the app are also reduced.&lt;/li&gt;
+&lt;li&gt;When an environment can't be created or a game can't start, Ember now shows the cause and how to fix it. You can also save diagnostic information to include when asking for help.&lt;/li&gt;
+&lt;li&gt;If a game is missing required components (Visual C++, DirectX, .NET), Ember installs them automatically from the game page after you confirm.&lt;/li&gt;
+&lt;li&gt;On Macs with 8 GB of memory, Ember recommends memory-saving settings. You can turn them on or off in Settings → General.&lt;/li&gt;
+&lt;li&gt;Ember now waits until a game installer has completely finished before adding the game. If there are several executables, you can choose one.&lt;/li&gt;
+&lt;li&gt;Ember now automatically installs the components needed by game launchers that use .NET 10 and WebView2, and runs them more reliably.&lt;/li&gt;
+&lt;li&gt;Improved the display of some game launchers that use web content, which previously showed a blank window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue where the first character typed in Korean inside a game was split into separate letters.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where launching through Nexon Plug showed two icons in the Dock.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where quitting a game yourself was recorded as an error or crash.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where some text appeared in English in the Korean interface.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where some installers kept waiting for a long time after installation had finished.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where the button at the bottom of the Add game window was cut off when choosing an executable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="ja">&lt;section lang="ja"&gt;
+&lt;h2&gt;Ember 1.0.1.2&lt;/h2&gt;
+&lt;h3&gt;新機能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ember の起動・終了とゲームの起動にかかる時間を大幅に短縮しました。使用中に一時的に固まる現象も減りました。&lt;/li&gt;
+&lt;li&gt;実行環境を作成できないときやゲームを起動できないときに、原因と解決方法を画面に表示します。問い合わせ用の診断情報も保存できます。&lt;/li&gt;
+&lt;li&gt;ゲームに必要なコンポーネント（Visual C++、DirectX、.NET）が足りない場合、ゲームページで確認したうえで自動的にインストールします。&lt;/li&gt;
+&lt;li&gt;メモリ 8GB の Mac では、メモリを節約する設定をおすすめします。設定 → 一般でオン・オフを切り替えられます。&lt;/li&gt;
+&lt;li&gt;ゲームのインストーラーがインストールを完全に終えるまで待ってからゲームを登録します。実行ファイルが複数ある場合は選択できます。&lt;/li&gt;
+&lt;li&gt;.NET 10・WebView2 を使うゲームランチャーに必要なコンポーネントを自動でインストールし、起動の安定性を高めました。&lt;/li&gt;
+&lt;li&gt;Web 画面を使う一部のゲームランチャーで、画面が空白で表示されていた点を改善しました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;修正&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ゲーム内でハングルを入力するとき、最初の文字が字母に分かれてしまう問題を修正しました。&lt;/li&gt;
+&lt;li&gt;Nexon Plug から起動すると Dock にアイコンが 2 つ表示される問題を修正しました。&lt;/li&gt;
+&lt;li&gt;ゲームを自分で終了したのに、エラーやクラッシュとして記録される問題を修正しました。&lt;/li&gt;
+&lt;li&gt;韓国語の画面で一部の文言が英語で表示される問題を修正しました。&lt;/li&gt;
+&lt;li&gt;一部のインストーラーで、インストールが終わった後も長く待ち続ける問題を修正しました。&lt;/li&gt;
+&lt;li&gt;「ゲームを追加」ウインドウで実行ファイルを選ぶとき、下のボタンが切れて表示される問題を修正しました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="zh-Hans">&lt;section lang="zh-Hans"&gt;
+&lt;h2&gt;Ember 1.0.1.2&lt;/h2&gt;
+&lt;h3&gt;新功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大幅缩短了 Ember 的打开、退出以及启动游戏所需的时间，使用过程中短暂卡住的情况也减少了。&lt;/li&gt;
+&lt;li&gt;无法创建运行环境或无法启动游戏时，会在界面上显示原因和解决方法。还可以保存诊断信息，以便咨询时使用。&lt;/li&gt;
+&lt;li&gt;如果游戏缺少所需组件（Visual C++、DirectX、.NET），会在游戏页面经你确认后自动安装。&lt;/li&gt;
+&lt;li&gt;在 8GB 内存的 Mac 上，会推荐节省内存的设置。可以在“设置 → 通用”中开启或关闭。&lt;/li&gt;
+&lt;li&gt;会等游戏安装程序完全完成安装后再添加游戏。如果有多个可执行文件，可以自行选择。&lt;/li&gt;
+&lt;li&gt;自动安装使用 .NET 10、WebView2 的游戏启动器所需的组件，并提高了运行稳定性。&lt;/li&gt;
+&lt;li&gt;改善了部分使用网页界面的游戏启动器显示空白的情况。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;修复&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修复了在游戏中输入韩文时第一个字会被拆成单独字母的问题。&lt;/li&gt;
+&lt;li&gt;修复了通过 Nexon Plug 启动时 Dock 中显示两个图标的问题。&lt;/li&gt;
+&lt;li&gt;修复了自行退出游戏却被记录为错误或崩溃的问题。&lt;/li&gt;
+&lt;li&gt;修复了韩语界面中部分文字显示为英语的问题。&lt;/li&gt;
+&lt;li&gt;修复了部分安装程序在安装完成后仍长时间等待的问题。&lt;/li&gt;
+&lt;li&gt;修复了在“添加游戏”窗口选择可执行文件时底部按钮被截断的问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description><description xml:lang="zh-Hant">&lt;section lang="zh-Hant"&gt;
+&lt;h2&gt;Ember 1.0.1.2&lt;/h2&gt;
+&lt;h3&gt;新功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大幅縮短了 Ember 的開啟、結束以及啟動遊戲所需的時間，使用過程中短暫卡住的情況也減少了。&lt;/li&gt;
+&lt;li&gt;無法建立執行環境或無法啟動遊戲時，會在畫面上顯示原因與解決方法。也可以儲存診斷資訊，方便詢問時使用。&lt;/li&gt;
+&lt;li&gt;如果遊戲缺少所需元件（Visual C++、DirectX、.NET），會在遊戲頁面經你確認後自動安裝。&lt;/li&gt;
+&lt;li&gt;在 8GB 記憶體的 Mac 上，會建議節省記憶體的設定。可以在「設定 → 一般」中開啟或關閉。&lt;/li&gt;
+&lt;li&gt;會等遊戲安裝程式完全完成安裝後再加入遊戲。如果有多個執行檔，可以自行選擇。&lt;/li&gt;
+&lt;li&gt;自動安裝使用 .NET 10、WebView2 的遊戲啟動器所需的元件，並提升了執行穩定性。&lt;/li&gt;
+&lt;li&gt;改善了部分使用網頁介面的遊戲啟動器顯示空白的情況。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;修正&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修正了在遊戲中輸入韓文時第一個字會被拆成單獨字母的問題。&lt;/li&gt;
+&lt;li&gt;修正了透過 Nexon Plug 啟動時 Dock 中顯示兩個圖示的問題。&lt;/li&gt;
+&lt;li&gt;修正了自行結束遊戲卻被記錄為錯誤或當機的問題。&lt;/li&gt;
+&lt;li&gt;修正了韓文介面中部分文字顯示為英文的問題。&lt;/li&gt;
+&lt;li&gt;修正了部分安裝程式在安裝完成後仍長時間等待的問題。&lt;/li&gt;
+&lt;li&gt;修正了在「加入遊戲」視窗選擇執行檔時底部按鈕被截斷的問題。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+</description></item>
+        <item>
             <title>1.0.1.1</title>
             <pubDate>Wed, 11 Nov 2026 13:22:16 +0900</pubDate>
             <sparkle:version>102</sparkle:version>
@@ -18,7 +142,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.1/Ember102-101.delta" sparkle:deltaFrom="101" length="3327978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O7A3S4QK5UhZYdoeSrrA/jk6HrpDyIvIu6pco9FvMqE/TsnBHRW2kl2gwZCwoB/o6v0+So5aNtAfGorTu5IUDA=="></enclosure>
                 <enclosure url="https://github.com/eunggg0/ember-releases/releases/download/v1.0.1.1/Ember102-100.delta" sparkle:deltaFrom="100" length="107111274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4bfEErx3PeKksDC8c0+bTxYmxY/Hw6qllkXBuFwYVj48gw6/SKTukvWOtrpRGKLaOBm49bG/hzBEMVRYTus/CQ=="></enclosure>
             </sparkle:deltas>
-        <description xml:lang="ko">&lt;section lang="ko"&gt;
+            <description xml:lang="ko">&lt;section lang="ko"&gt;
 &lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
 &lt;h3&gt;고친 점&lt;/h3&gt;
 &lt;ul&gt;
@@ -28,7 +152,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;Ember Shield가 정상적인 실행을 막던 경우를 줄였습니다. 알려진 위험이 확인될 때만 막고, 그 밖에는 알림만 표시합니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="en">&lt;section lang="en"&gt;
+</description>
+            <description xml:lang="en">&lt;section lang="en"&gt;
 &lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
@@ -38,7 +163,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;Ember Shield now blocks normal launches less often. It blocks only when a known threat is confirmed and otherwise just shows a notice.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="ja">&lt;section lang="ja"&gt;
+</description>
+            <description xml:lang="ja">&lt;section lang="ja"&gt;
 &lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
 &lt;h3&gt;修正&lt;/h3&gt;
 &lt;ul&gt;
@@ -48,7 +174,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;Ember Shield が正常な起動を止めてしまう場合を減らしました。既知の危険が確認されたときだけ止め、それ以外はお知らせだけを表示します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="zh-Hans">&lt;section lang="zh-Hans"&gt;
+</description>
+            <description xml:lang="zh-Hans">&lt;section lang="zh-Hans"&gt;
 &lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
 &lt;h3&gt;修复&lt;/h3&gt;
 &lt;ul&gt;
@@ -58,7 +185,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;减少了 Ember Shield 拦截正常启动的情况。仅在确认存在已知风险时拦截，其他情况只显示提示。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description><description xml:lang="zh-Hant">&lt;section lang="zh-Hant"&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;section lang="zh-Hant"&gt;
 &lt;h2&gt;Ember 1.0.1.1&lt;/h2&gt;
 &lt;h3&gt;修正&lt;/h3&gt;
 &lt;ul&gt;
@@ -68,7 +196,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 &lt;li&gt;減少了 Ember Shield 攔截正常啟動的情況。僅在確認有已知風險時攔截，其他情況只顯示通知。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.0.1</title>
             <pubDate>Sat, 07 Nov 2026 13:19:12 +0900</pubDate>
@@ -222,6 +351,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Idp9CeoVaE9lSKbhhx8y4Uu+5KS1+QgyPvIhgPqZg+6OqBhV5cSlKDnnVsVx/zY9jjqQNrVmXAB/8FXFEeE3Cg==
-length: 19936
+edSignature: Ch2DqMIGz1b9IQXAbblBmiwRCvN8WRBwWrqMfUYNfL554qj4fSNVvMgjVu/6YogbiTPZ3957oFfek9a7cyntDA==
+length: 32076
 -->
